@@ -3,8 +3,8 @@ services:
     web:
         build: ./web
         environment:
-            - APACH_RUN_USER=www-data
-            - APACHE_RUN_GROUP=www-data
+            APACH_RUN_USER: www-data
+            APACHE_RUN_GROUP: www-data
         volumes:
             - ${APP_PATH_HOST}:${APP_PATH_CONTAINER}
         ports:
