@@ -13,7 +13,8 @@
 
 # We go to our service
 - $ docker-compose exec web bash
-- $ php artisan key:generate //FIX: chown -R www-data:www-data .
+- $ php artisan key:generate 
+- $ chown -R www-data:www-data .
 - $ php artisan migrate
 
 # We go to our project 
