@@ -17,5 +17,5 @@
 - $ php artisan migrate
 
 # We go to our project 
-http://localhost:8080/public/
-http://localhost:8080/public/admin 
+- http://localhost:8080/public/
+- http://localhost:8080/public/admin 
