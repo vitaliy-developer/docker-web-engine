@@ -7,7 +7,7 @@
 - $ docker-compose up --build 
 
 # We create a database
-[localhost:6080]
+- localhost:6080
 - Ceate db -> blog
 - Add name db -> blog/.env
 
